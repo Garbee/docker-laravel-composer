@@ -1,7 +1,5 @@
 FROM dylanlindgren/docker-phpcli:latest
 
-MAINTAINER "Dylan Lindgren" <dylan.lindgren@gmail.com>
-
 WORKDIR /tmp
 
 RUN apt-get update -y && \
